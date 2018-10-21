@@ -1,0 +1,752 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    This full page is designed and developed by 
+        - Debojyoti Das (https://github.com/debojyotidas)   
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0; user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Ritwick Dey, Prithwee Das" >
+    <title>DEBOJYOTI DAS</title>
+    <link rel="shortcut icon" href="./img/logo.jpg?v=1" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/skeleton.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css?v=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ?v=1 ==>> To remove browser cache -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/wow.min.js"></script>
+    <!-- <script src="https://use.fontawesome.com/7c0b3ec4f2.js"></script> -->
+    <script src="scripts/scripts.js"></script>
+    <style>
+        .wow {
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay">
+        <div class="event-details 1-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="1" aria-hidden="true"></i>
+            <div class="details">
+                <h1>Question to our society ..Why ?</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img src="./img/events/techno_buzz_comp.jpg" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Topic</td>
+                                <td>:</td>
+                                <td>Ask your intra minded questions</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">since</td>
+                                <td>:</td>
+                                <td class="dateEvent">Soon</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Rule</td>
+                                <td>:</td>
+                                <td>Which topics you want to ask people or our society</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Range</td>
+                                <td>:</td>
+                                <td>Here not any perticular limit but don't say anything against on anyone</td>
+                            </tr>
+                        </table>
+                        <p>
+                            <i>(Try to maintain these)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            Show your skill by asking which questions those was never asked by anyone
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>Specification</h5>
+                            <p>Be positive & loyal</p>
+                            <p>don't ask anything cheap</p>
+                        </div>
+
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="techBtn">Ask Now</button>
+                        <button class="btn details-btn RegisterBtn">Query</button>
+                        <div class="bold green small-font">(You can also contact our admin or members)</div>
+                        <div class="bold red small-font">selected questions will be publish by page including your name</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="event-details 2-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="2" aria-hidden="true"></i>
+            <div class="details">
+                <h1>Keep remember unity is strength</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img src="./img/events/BUILD_MECH_ARENA.jpeg" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Our Target</td>
+                                <td>:</td>
+                                <td>To make a strong team & aware our surroundings</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Since</td>
+                                <td>:</td>
+                                <td class="dateEvent2">From founding of our Page</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Key of Success</td>
+                                <td>:</td>
+                                <td>By support everyone and making a friendly environment</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Remember</td>
+                                <td>:</td>
+                                <td>Unity is the biggest power</td>
+                            </tr>
+                        </table>
+                        <p>
+                            <i>(Note our posts)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            Always try to well communicate with team-members for a Strong Unity
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>Attempts</h5>
+                            <p>Good interpersonals skills</p>
+                            <p>Strong Bonding</p>
+                        </div>
+
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="bmaBtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Query</button>
+                        <div class="bold green small-font">Unity Unity and Only Unity</div>
+                        <div class="bold red small-font">Because unity is strength</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="event-details 3-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="3" aria-hidden="true"></i>
+            <div class="details">
+                <h1>Always try to think something new</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img src="./img/events/code-storm.jpg" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Key</td>
+                                <td>:</td>
+                                <td>Innovative Ideas & Thinking</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Since</td>
+                                <td>:</td>
+                                <td class="dateEvent3">Beginning</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Any Rule</td>
+                                <td>:</td>
+                                <td>Just Always try to think something New</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Bounding</td>
+                                <td>:</td>
+                                <td>No</td>
+                            </tr>
+                        </table>
+                        <p>
+                            <i>Think and Learn</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            In our regular Mindset has a lot of ideal thoughts and ideas but we can't express those.So You can easily provide those by sending your ideas. 
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>Facts</h5>
+                            <p>Send New Ideas</p>
+                            <p>Selected posts will be published</p>
+                        </div>
+
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="codeStromBtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Send Now</button>
+                        <div class="bold green small-font">Innovative Thinking Always gets first Priority</div>
+                        <div class="bold red small-font">send your ideas through Facebook Inbox</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="event-details 4-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="4" aria-hidden="true"></i>
+            <div class="details">
+                <h1>Ideal View</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img src="./img/events/photography.jpg" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Category</td>
+                                <td>:</td>
+                                <td>Ideal view</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Date</td>
+                                <td>:</td>
+                                <td class="dateEvent">Soon</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Majority</td>
+                                <td>:</td>
+                                <td>Who want to notice Backwards of society</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Topic</td>
+                                <td>:</td>
+                                <td>Inspection each and every smallest things in our daily life</td>
+                            </tr>
+                        </table>
+                        <p>
+                            <i>(Contact Us)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            If you cant notice anyything bad or cheap in your surrounding , Then we are sorry to say You're Blind.
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>Are You Really Blind ??</h5>
+                            <p>If not then inspect critical situaltion in Daily life & Share with us</p>
+                            <p>Keep remember who are able to watch our socity from a different angle they will most ideal person in future</p>
+                        </div>
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="photoBtn">Query</button>
+                        <button class="btn details-btn RegisterBtn">Send your Photos or Events</button>
+                        <div class="bold green small-font">Show your own viewing skills</div>
+                        <div class="bold red small-font">Send your Photos or Scripts in regular basis to our Page Admin</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="event-details 5-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="5" aria-hidden="true"></i>
+            <div class="details">
+                <h1>Spread your voice to all</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img src="./img/events/cs.jpg" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">Topic</td>
+                                <td>:</td>
+                                <td>Roar Up</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Boundation</td>
+                                <td>:</td>
+                                <td class="dateEvent7">No</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Any Rule</td>
+                                <td>:</td>
+                                <td>Don't tell anything wrong against of anyoneor socity</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Medium</td>
+                                <td>:</td>
+                                <td>You can directly send or upload and give link</td>
+                            </tr>
+                        </table>
+                        <p>
+                            <i>(Contact Us for more details)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            Are you Feared to tell right staightments in your mind ??. No ,, Its time to Roar up and reach your voice to upper classed persons
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>Don't hezitate to speak the true</h5>
+                            <p>It might be a commencement of a new journey</p>
+                            <p>If you are able to speak something new then it would be a good opportunity to motivation</p>
+                        </div>
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="csBtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Launch Your Speech</button>
+                        <div class="bold green small-font">Keep remember well Speakers are our real Heros ..Do you know Sandip Maheshwari ??</div>
+                        <div class="bold red small-font">Quitters never win & Winners never Quit</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="event-details 6-event">
+            <i class="fa fa-3x fa-times modal-close-btn" eventNo="6" aria-hidden="true"></i>
+            <div class="details">
+                <h1>Join with us to make an unique team</h1>
+                <div class="details-card">
+                    <div class="details-item details-img">
+                        <img style="height:90%" src="./img/events/nfs.jpg" alt="Event">
+                    </div>
+                    <div class="details-item details-category">
+                        <h5>Details</h5>
+                        <table>
+                            <tr>
+                                <td class="bold">StartUp</td>
+                                <td>:</td>
+                                <td>Join with Us</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Time</td>
+                                <td>:</td>
+                                <td class="dateEvent5">Anytime You're Most Welcome to join</td>
+                            </tr>
+                            <tr>
+                                <td class="bold">Any Rule to Join ?</td>
+                                <td>:</td>
+                                <td>No , But you must have to provide some Writing/Ideal or anything else at joining time</td>
+                            </tr>
+
+                        </table>
+                        <p>
+                            <i>(watch Rules for more details)</i>
+                        </p>
+                    </div>
+                    <div class="details-item details-rules">
+                        <div>
+                            ...
+                        </div>
+                        <div class="prizeMoney">
+                            <h5>Page Rules</h5>
+                            <p>Keep friendly environment</p>
+                            <p>Don't Misbehave with any member as well as page likers</p>
+                        </div>
+
+                    </div>
+                    <div class="details-item details-btns">
+                        <button class="btn details-btn" id="nfsBtn">Rules</button>
+                        <button class="btn details-btn RegisterBtn">Join Now</button>
+                        <div class="bold green small-font">You can directly message to our admin for immediate join request</div>
+                        <div class="bold red small-font">*Please Don't Copy Any post from any other page or any public profile</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="landing-section">
+        <div class="landing">
+            <div class="logo">
+                <img src="img/SDET_Logo.jpg" class="brainware-logo" alt="Brainware">
+                <h1>PURUSHTANTRA</h1>
+                <h3>Most Realistic Facebook Page</h3>
+            </div>
+            <div class="darkness"></div>
+            <i class="fa fa-chevron-down fa-3x go-down" aria-hidden="true"></i>
+        </div>
+    </section>
+
+    <section class="" id="events-section">
+        <div class="container">
+            <div>
+                <h2 class="headline-section wow jackInTheBox">ACTIVITIES</h2>
+                <h4 class="subline-section wow jackInTheBox" data-wow-duration="0.6s" data-wow-delay="0.3s">Some exciting events those are Maintaing our Page</h4>
+                <hr>
+                <div class="events">
+                    <div eventNo="1" data-wow-duration="1s" class="event wow slideInLeft">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/events/techno_buzz_comp.jpg" alt="techno-buzz">
+                                <div class="headText">
+                                    <p>Question to our Society</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/events/techno_buzz_comp.jpg" alt="techno-buzz">
+                                <div class="eventName">
+                                    <p>Question to Society</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Explore</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div eventNo="2" data-wow-duration="1s" class="event wow fadeInDown">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/events/BUILD_MECH_ARENA.jpeg" alt="build-mech-arena">
+                                <div class="headText">
+                                    <p>Unity</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/events/BUILD_MECH_ARENA.jpeg" alt="build-mech-arena">
+                                <div class="eventName">
+                                    <p>Unity</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Explore</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div eventNo="3" data-wow-duration="1s" class="event Right wow slideInRight">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/events/code-storm.jpg" alt="code-storm">
+                                <div class="headText">
+                                    <p>Think Innovative</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/events/code-storm.jpg" alt="code-storm">
+                                <div class="eventName">
+                                    <p>Think Innovative</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Explore</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div eventNo="4" data-wow-duration="1s" class="event wow slideInLeft">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/events/photography.jpg" alt="photography">
+                                <div class="headText">
+                                    <p>ideal view</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/events/photography.jpg" alt="photography">
+                                <div class="eventName">
+                                    <p>ideal view</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Explore</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div eventNo="5" data-wow-duration="1s" class="event wow fadeInUp">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/events/cs.jpg" alt="cs-go">
+                                <div class="headText">
+                                    <p>Graise Your Voice</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/events/cs.jpg" alt="cs-go">
+                                <div class="eventName">
+                                    <p>Graise your Voice</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Explore</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div eventNo="6" data-wow-duration="1s" class="event wow slideInRight">
+                        <div class="card">
+                            <div class="card-item card-front">
+                                <img src="./img/events/nfs.jpg" alt="NFS">
+                                <div class="headText">
+                                    <p>join with us</p>
+                                </div>
+                            </div>
+                            <div class="card-item card-back">
+                                <img src="./img/events/nfs.jpg" alt="NFS">
+                                <div class="eventName">
+                                    <p>join with us</p>
+                                </div>
+                                <div class="headText">
+                                    <p>Explore</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="" id="about-section">
+        <div class="container">
+            <h1 class="headline-section wow jackInTheBox">ABOUT</h1>
+            <h4 class="subline-section wow jackInTheBox" data-wow-duration="0.6s" data-wow-delay="0.3s">The PURUSHTANTRA</h4>
+            <hr>
+            <div class="wow slideInRight about-box">
+                <div class="about-img">
+                    <img src="./img/about/1.jpg" alt="about">
+                </div>
+                <div class="about-content">
+                    <h5>March 2018</h5>
+                    <h5>It's our Humble Beginning</h5>
+                    <p>
+                        It has been 3 years in the social journey by many pages providing opportunities to prove everyones there's own talent by learning new skills in their respective
+                        fields. Then, to spread the knowledge more and more we introduced a better infrastructure to everyone
+                        in the form of PURUSHTANTRA.
+                    </p>
+                </div>
+                <div class="about-blank"></div>
+            </div>
+            <div class="wow slideInLeft about-box">
+                <div class="about-img">
+                    <img src="./img/about/2.jpg" alt="about">
+                </div>
+                <div class="about-content">
+                    <h5>October 2018</h5>
+                    <h5>Tireless journey of 7 months</h5>
+                    <p>
+                        After 7 glorious and successful months we are coming up with a new platform with 20,000 likers to represent them.
+                    </p>
+                </div>
+                <div class="about-blank"></div>
+            </div>
+            <div class="wow slideInRight about-box">
+                <div class="about-img">
+                    <img src="./img/about/3.jpg" alt="about">
+                </div>
+                <div class="about-content">
+                    <h5>Why PURUSHTANTRA ??</h5>
+                    <h5>A Visualization of Untalked Commitments</h5>
+                    <p>
+                        Are you very Realistic ?.Want to speak your thinkings straight forwardly ? Join with Us ,We are PURUSHTANTRIKS.
+                    </p>
+                </div>
+                <div class="about-blank"></div>
+            </div>
+            <div class="wow slideInLeft about-box">
+                <div class="about-img">
+                    <img src="./img/about/4.jpg" alt="about">
+                </div>
+                <div class="about-content">
+                    <h5>Roar Up! Yourself</h5>
+                    <h5>Come and challenge the Society</h5>
+                    <p>
+                        Keep remember 99% persons chenge theirselves according the situation and rules of our society. Remaining 1% does not follow this, they changes the rules of socity and "History keeps remember them".So try to break the rules think innovative.
+                    </p>
+                </div>
+                <div class="about-blank"></div>
+            </div>
+        </div>
+    </section>
+    <section class="" id="team-section">
+        <div class="container">
+            <h1 class="headline-section wow jackInTheBox">OUR AMAZING TEAM</h1>
+            <!-- <h4 class="subline-section">Teacher & Co-ordinators</h4> -->
+            <hr>
+            <div class="wow slideInRight team-members">
+                <h4>PAGE ADMINISTRATION</h4>
+                <div class="team-member">
+                    <h5>Nabarun Sil</h5>
+                    <p>Founder of Page & Writer</p>
+                </div>
+                <div class="team-member">
+                    <h5>Subhajit Biswas</h5>
+                    <p>Lead Admin & Writer</p>
+                </div>
+                <div class="team-member">
+                    <h5>Debojyoti Das</h5>
+                    <p>Admin-Writer & Web Developer</p>
+                </div>
+            </div>
+            <div class="wow slideInLeft team-members">
+                <h4>MAJOR WRITERS</h4>
+                <!-- <p>THE PEOPLE WHO MANAGED RELATIONS WITH SPONSERS</p> -->
+                <div class="team-member">
+                    <h5>Priyanko</h5>
+                    <p>Lead Writer</p>
+                </div>
+                <div class="team-member">
+                    <h5>Gargi</h5>
+                    <p>Writer</p>
+                </div>
+                <div class="team-member">
+                    <h5>Subrata</h5>
+                    <p>Writer</p>
+                </div>
+            </div>
+            <div class="wow slideInRight team-members">
+                <h4>SPECIAL THANKS TO</h4>
+                <!-- <p>THE PEOPLE WHO DEVELOPED THIS WEBSITE AND OTHER CREATIVE STUFF</p> -->
+                <div class="team-member">
+                    <a target="_blank" href="#">
+                        <h5>Pallab</h5>
+                    </a>
+                    <p>Minor Writer</p>
+                </div>
+                <div class="team-member">
+                    <a target="_blank" href="#">
+                        <h5>Sneha Ghosh</h5>
+                    </a>
+                    <p>Designer & Editor</p>
+                </div>
+                <div class="team-member">
+                    <a target="_blank" href="#">
+                        <h5>Abhijit Biswas</h5>
+                    </a>
+                    <p>Writer come Editor</p>
+                </div>
+            </div>
+
+            <!-- <div class="team-members">
+                <h4>EVENT CO-ORDINATORS</h4>
+                <div class="team-member">
+                    <a href="https://github.com/debojyotidas">
+                        <h5>Debojyoti Das</h5>
+                    </a>
+                    <p>Code-storm</p>
+                </div>
+            </div> -->
+
+    </section>
+
+    <section class="" id="contact-section">
+        <div class="container">
+            <div>
+                <h2 class="headline-section wow jackInTheBox">CONTACT with Us</h2>
+                <h4 class="subline-section wow jackInTheBox" data-wow-duration="0.6s" data-wow-delay="0.3s">Get in touch with us</h4>
+                <hr>
+                <div class="contact-areas">
+                    <div class="contact-area wow fadeInLeft" data-wow-offset="75">
+                        <h5>
+                            Send Query
+                        </h5>
+                        <form class="feedback">
+                            <div class="form-group">
+                                <input id="name" name="name" type="text" class="form-control" required placeholder="Your Name *">
+                            </div>
+                            <div class="form-group">
+                                <input id="email" name="email" type="email" class="form-control" required placeholder="Your Email *">
+                            </div>
+                            <div class="form-group">
+                                <input id="_next" type="hidden" name="_next" value="https://debojyotidas.github.io/" />
+                            </div>
+                            <div class="form-group">
+                                <input id="phone" name="phone" type="text" class="form-control" placeholder="Your Phone No *" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" style="height: 182px" type="text" class="form-control" placeholder="Your Message *"
+                                    required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div id="msgSentConfirm"></div>
+                                <button id="formSubmit" class="btn from-submit" type="submit">SEND MESSAGE</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-area wow fadeInRight" data-wow-offset="75">
+                        <h5>
+                            OUR LOCATION
+                            <i class="fa fa-map-marker"></i>
+                        </h5>
+                        <p>
+                            <i class="fa fa-phone" aria-hidden="true"></i> +91-8116040511
+                            <br>
+                            <i class="fa fa-envelope" aria-hidden="true"></i> debojyoti.das52@gmail.com
+                        </p>
+
+                        <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14739.66517356961!2d88.3425578!3d22.5448082!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb540e4bce39763!2sVictoria+Memorial!5e0!3m2!1sen!2sin!4v1539973592551" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="wow fadeInUp" data-wow-offset="0">
+        <div class="container">
+            <div style="float:left; line-height: 40px;">
+                Copyright © 2018-19
+                <a class="name" href="http://github.com/debojyotidas">DEBOJYOTI DAS</a>
+            </div>
+            <div style="float:right">
+                <a class="socialBtn" target="_blank" href="https://www.facebook.com/debojyoti.das.180">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a class="socialBtn" href="mailto:debojyoti.das52@gmail.com">
+                    <i class="fa fa-envelope"></i>
+                </a>
+                <a class="socialBtn" href="tel:+91-8116040511">
+                    <i class="fa fa-phone"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const wowConfig = {
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: window.innerWidth <= 750 ? 0 : 50,
+            mobile: false,
+            live: true,
+            scrollContainer: null
+        }
+        const wow = new WOW(wowConfig);
+        wow.init();
+        const registerUrl = '#';
+        const codeStromUrl = '#';
+        const csUrl = '#';
+        const nfsUrl = '#';
+        const photoUrl = '#';
+        const bmaUrl = '#';
+        const techUrl = '#';
+        const eventDate = 'March 2018';
+
+        document.getElementById('csBtn').onclick = () => window.open(csUrl, '_blank');
+        document.getElementById('codeStromBtn').onclick = () => window.open(codeStromUrl, '_blank');
+        document.getElementById('nfsBtn').onclick = () => window.open(nfsUrl, '_blank');
+        document.getElementById('photoBtn').onclick = () => window.open(photoUrl, '_blank');
+        document.getElementById('bmaBtn').onclick = () => window.open(bmaUrl, '_blank');
+        document.getElementById('techBtn').onclick = () => window.open(techUrl, '_blank');
+
+        [...document.getElementsByClassName('RegisterBtn')].forEach(e =>
+            e.onclick = () => window.open(registerUrl, '_blank'));
+
+        [...document.getElementsByClassName('dateEvent')].forEach(e => {
+            e.innerHTML = eventDate;
+        });
+    </script>
+
+</body>
+
+
+</html>
